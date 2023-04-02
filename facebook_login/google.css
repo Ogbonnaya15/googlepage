@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+
+header div{
+    display: flex;
+    justify-content: end;
+    margin-top: 15px;
+    align-items: center;
+    color: black;
+}
+
+.head span{
+    padding-right: 15px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.email:hover{
+    text-decoration: underline;
+    color: gray;
+}
+
+.ping:hover{
+    text-decoration: underline;
+    color: gray;
+}
+
+.bar_box > i:hover{
+    background-color: gray;
+    border-radius: 10%
+} 
+
+.pic > img{
+    background-color: gray;
+    border-radius: 50%;
+}
+
+/* end of header */
+
+.main_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.search{
+    width: 50%;
+    border: 1px solid gray;
+    padding: 10px;
+    align-items: center;
+    border-radius: 40px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+input{
+    width: 80%;
+    background-color: transparent;
+    border: none;
+    padding: 5px;
+    font-size: 12px;
+    outline: none;
+}
+
+.btn{
+    margin-top: 15px;
+}
+
+.btn button{
+    padding: 5px;
+    background-color: #e3e3e3;
+    border-radius: 5px;
+    border: 1px solid gainsboro;
+    cursor: pointer;
+}
+
+.btn button:hover{
+    background-color: gray;
+}
+
+.links{
+    margin-top: 20px;
+    font-size: 14px;
+
+}
+
+.links a{
+    text-decoration: none;
+    color: gray;
+    padding: 3px;
+}
+
+.links a:hover{
+    color: black;
+}
+
+.footer{
+    background-color:#e3e3e3;
+    padding: 10px;
+}
+
+.footer1{
+    margin-bottom: 10px;
+    color: black;
+}
+
+.cont_footer{
+    margin-top: 3px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.footer_link a{
+    text-decoration: none;
+    color: gray;
+    padding: 2px;
+}
+
+.footer_link a:hover{
+    color: black;
+}
+
+.footer_p{
+    color: gray;
+}
